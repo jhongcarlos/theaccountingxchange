@@ -1,7 +1,7 @@
 // npm run verify: build, start `vite preview`, run the content diff and the link check, stop the server.
 import { spawn, execSync } from 'node:child_process';
 
-const PORT = 4173;
+const PORT = 4174;
 const base = `http://localhost:${PORT}`;
 const routes = process.argv.slice(2);
 
@@ -24,7 +24,9 @@ try {
     }
   }
 } finally {
-  if (process.platform === 'win32') execSync(`taskkill /pid ${server.pid} /T /F`, { stdio: 'ignore' });
-  else server.kill();
+  try {
+    if (process.platform === 'win32') execSync(`taskkill /pid ${server.pid} /T /F`, { stdio: 'ignore' });
+    else server.kill();
+  } catch {}
 }
 process.exit(code);

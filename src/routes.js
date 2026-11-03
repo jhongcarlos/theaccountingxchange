@@ -3,11 +3,12 @@ import { lazy } from 'react';
 // Pages being rebuilt (original URL paths, trailing slash included).
 export const pages = [
   { path: '/', Component: lazy(() => import('./pages/Home.jsx')) },
+  { path: '/services/', Component: lazy(() => import('./pages/Services.jsx')) },
   { path: '/about-us/', Component: lazy(() => import('./pages/AboutUs.jsx')) },
 ];
 
 // Planned pages not built yet (dev-only placeholder until each lands).
-export const pending = ['/services/', '/contact-us/', '/pricing/'];
+export const pending = ['/contact-us/', '/pricing/'];
 
 // Every other URL in the original sitemap redirects to its closest rebuilt page.
 export const redirects = {
