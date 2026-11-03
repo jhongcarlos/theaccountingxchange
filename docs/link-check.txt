@@ -1,17 +1,21 @@
-Link check (2026-11-03T11:38:16.603Z) against http://localhost:4174
+Link check (2026-11-03T11:49:39.905Z) against http://localhost:4174
 
-## /pricing/
+## /contact-us/
   ✓ link header: "Home" → https://theaccountingxchange.com/
   ✓ link header: "Services" → https://theaccountingxchange.com/services/
   ✓ link header: "About Us" → https://theaccountingxchange.com/about-us/
   ✓ link footer: "Arrange A Free Consultation" → https://theaccountingxchange.com/contact-us/
   ✓ link header: "Phone-alt" → https://go.theaccountingxchange.com/book-ax-call-now609488
-  ✓ link header: "Envelope" → http://info@theaccountingxchange.com
+  ✓ link content: "info@theaccountingxchange.com" → http://info@theaccountingxchange.com
+  ✓ link content: "(407) 792-5447" → tel:407%20792-5447
   ✓ link footer: "Facebook" → https://www.facebook.com/profile.php?id=61556458799517
   ✓ link footer: "Twitter" → https://twitter.com/accountingxcnge
   ✓ link footer: "Youtube" → https://www.youtube.com/@TheAccountingXchange
   ✓ image 2024/02/Untitled-600-x-150-px-1-2.png (alt="")
-  ✓ image 2026/02/john-macdonald-I6v9QWWH93g-unsplash.jpg (alt="")
+  ! image 2024/03/contact-us-1.png: 404 on the live server too, cannot be migrated
+  ✓ embed script https://link.msgsndr.com/js/form_embed.js
+  ✓ embed iframe https://maps.google.com/maps?q=801%20International%20Pkwy%205th%20Floor%2C%20Lake%20Mary%2C%20FL%2032746&t=m&z=10&output=embed&iwloc=near
+  ✓ embed iframe https://api.leadconnectorhq.com/widget/booking/kEYol5LayUnQ27iPPKXK
   ✓ all 8 local requests returned < 400
 
 ## Redirects
@@ -22,7 +26,7 @@ Link check (2026-11-03T11:38:16.603Z) against http://localhost:4174
   · /3-reasons-why/ → /about-us/ (target not rebuilt yet; skipped)
   · /payroll/ → /services/ (target not rebuilt yet; skipped)
   · /tax-preparation/ → /services/ (target not rebuilt yet; skipped)
-  ✓ /virtual-assistance/ → /pricing/
+  · /virtual-assistance/ → /pricing/ (target not rebuilt yet; skipped)
   · /shop/ → / (target not rebuilt yet; skipped)
   · /cart/ → / (target not rebuilt yet; skipped)
   · /checkout/ → / (target not rebuilt yet; skipped)

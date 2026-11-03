@@ -1,3 +1,3 @@
-Content diff (2026-11-03T11:38:10.231Z) against http://localhost:4174
+Content diff (2026-11-03T11:49:32.521Z) against http://localhost:4174
 
-## /pricing/: PASS (70 original segments, 70 rebuilt)
+## /contact-us/: PASS (23 original segments, 23 rebuilt)

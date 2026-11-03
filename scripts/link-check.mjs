@@ -24,6 +24,8 @@ let failures = 0;
 const fail = (msg) => (failures++, lines.push(`  ✗ ${msg}`));
 const pass = (msg) => lines.push(`  ✓ ${msg}`);
 const externals = new Map();
+// assets the live server itself returns 404 for — cannot be migrated, reported instead of failed
+const missingOnLive = new Set(inventory.missingAssets.map(([u]) => uploadKey(u)));
 
 for (const route of routes) {
   const inv = inventory.pages.find((p) => p.route === route);
@@ -44,6 +46,7 @@ for (const route of routes) {
     links: [...document.querySelectorAll('a[href]')].map((a) => a.getAttribute('href')),
     images: [...document.querySelectorAll('img')].flatMap((i) => [i.getAttribute('src'), ...(i.getAttribute('srcset') || '').split(',').map((s) => s.trim().split(/\s+/)[0])]).filter(Boolean),
     iframes: [...document.querySelectorAll('iframe')].map((f) => f.getAttribute('src')),
+    scripts: [...document.querySelectorAll('script[src]')].map((sc) => sc.getAttribute('src')),
     forms: [...document.querySelectorAll('form')].map((f) => ({
       name: f.getAttribute('name'),
       fields: [...f.querySelectorAll('input, textarea, select')].map((e) => ({ name: e.getAttribute('name'), value: e.type === 'hidden' ? e.value : undefined, required: e.required, placeholder: e.getAttribute('placeholder') })),
@@ -64,6 +67,7 @@ for (const route of routes) {
   for (const img of inv.images) {
     const key = uploadKey(img.full || img.src);
     if (have.has(key)) pass(`image ${key} (alt="${img.alt ?? ''}")`);
+    else if (missingOnLive.has(key)) lines.push(`  ! image ${key}: 404 on the live server too, cannot be migrated`);
     else fail(`image missing: ${key}`);
   }
   for (const bg of inv.backgrounds) {
@@ -79,7 +83,8 @@ for (const route of routes) {
     else fail(`video missing: ${v}`);
   }
   for (const e of inv.embeds) {
-    if (dom.iframes.includes(e.src)) pass(`embed ${e.src}`);
+    const loaded = e.type === 'script' ? dom.scripts.includes(e.src) && responses.some((r) => r.url === e.src && r.status < 400) : dom.iframes.includes(e.src);
+    if (loaded) pass(`embed ${e.type} ${e.src}`);
     else fail(`embed missing: ${e.src}`);
   }
 

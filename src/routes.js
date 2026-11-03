@@ -5,11 +5,12 @@ export const pages = [
   { path: '/', Component: lazy(() => import('./pages/Home.jsx')) },
   { path: '/services/', Component: lazy(() => import('./pages/Services.jsx')) },
   { path: '/pricing/', Component: lazy(() => import('./pages/Pricing.jsx')) },
+  { path: '/contact-us/', Component: lazy(() => import('./pages/ContactUs.jsx')) },
   { path: '/about-us/', Component: lazy(() => import('./pages/AboutUs.jsx')) },
 ];
 
 // Planned pages not built yet (dev-only placeholder until each lands).
-export const pending = ['/contact-us/'];
+export const pending = [];
 
 // Every other URL in the original sitemap redirects to its closest rebuilt page.
 export const redirects = {
