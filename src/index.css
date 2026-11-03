@@ -6,4 +6,29 @@
   body {
     @apply bg-surface-page font-serif text-ink antialiased;
   }
+  ::selection {
+    @apply bg-brand-cyan text-white;
+  }
+  [id] {
+    scroll-margin-top: 96px;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .bg-grid-white {
+    background-image: linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

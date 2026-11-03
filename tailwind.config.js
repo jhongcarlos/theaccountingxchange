@@ -32,6 +32,15 @@ export default {
       maxWidth: {
         container: '1280px',
       },
+      keyframes: {
+        marquee: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(var(--marquee-shift, -50%))' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 40s linear infinite',
+      },
     },
   },
   plugins: [],

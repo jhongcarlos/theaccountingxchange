@@ -1,0 +1,50 @@
+Link check (2026-11-03T11:19:39.207Z) against http://localhost:4173
+
+## /
+  ✓ link header: "Home" → https://theaccountingxchange.com/
+  ✓ link header: "Services" → https://theaccountingxchange.com/services/
+  ✓ link header: "About Us" → https://theaccountingxchange.com/about-us/
+  ✓ link footer: "Arrange A Free Consultation" → https://theaccountingxchange.com/contact-us/
+  ✓ link header: "Phone-alt" → https://go.theaccountingxchange.com/book-ax-call-now609488
+  ✓ link header: "Envelope" → http://info@theaccountingxchange.com
+  ✓ link footer: "Facebook" → https://www.facebook.com/profile.php?id=61556458799517
+  ✓ link footer: "Twitter" → https://twitter.com/accountingxcnge
+  ✓ link footer: "Youtube" → https://www.youtube.com/@TheAccountingXchange
+  ✓ image 2024/02/Untitled-600-x-150-px-1-2.png (alt="")
+  ✓ image 2026/01/Untitled-design-8-1.png (alt="")
+  ✓ image 2026/01/piggy-bank.png (alt="")
+  ✓ image 2026/01/24-7.png (alt="")
+  ✓ image 2026/01/productivity.png (alt="")
+  ✓ image 2026/01/loss.png (alt="")
+  ✓ image 2026/01/growth.png (alt="")
+  ✓ image 2026/01/cogs.png (alt="")
+  ✓ video https://youtu.be/2GcE14W3Xo0
+  ✓ form "New Form": 7 fields match (endpoint: https://theaccountingxchange.com/wp-admin/admin-ajax.php)
+  ✓ all 12 local requests returned < 400
+
+## Redirects
+  · /about-us-old/ → /about-us/ (target not rebuilt yet; skipped)
+  ✓ /home-old/ → /
+  · /services-old/ → /services/ (target not rebuilt yet; skipped)
+  · /services-draft/ → /services/ (target not rebuilt yet; skipped)
+  · /3-reasons-why/ → /about-us/ (target not rebuilt yet; skipped)
+  · /payroll/ → /services/ (target not rebuilt yet; skipped)
+  · /tax-preparation/ → /services/ (target not rebuilt yet; skipped)
+  · /virtual-assistance/ → /pricing/ (target not rebuilt yet; skipped)
+  ✓ /shop/ → /
+  ✓ /cart/ → /
+  ✓ /checkout/ → /
+  ✓ /my-account/ → /
+  ✓ /my-account/lost-password/ → /
+  ✓ /hello-world/ → /
+  ✓ /category/blog/ → /
+  ✓ /author/raj/ → /
+  ✓ /author/theaccountingxchange-com/ → /
+
+## External links (live status, informational)
+  · https://theaccountingxchange.com/wp-admin/admin-ajax.php — form endpoint
+  · 404 https://go.theaccountingxchange.com/book-ax-call-now609488
+  · 400 https://www.facebook.com/profile.php?id=61556458799517
+  · 200 https://twitter.com/accountingxcnge
+  · 200 https://www.youtube.com/@TheAccountingXchange
+  · 400 https://theaccountingxchange.com/wp-admin/admin-ajax.php (400 without an action = WordPress handler is up)

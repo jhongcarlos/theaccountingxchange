@@ -9,7 +9,11 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "extract": "node scripts/extract.mjs",
-    "mirror": "node scripts/mirror.mjs"
+    "mirror": "node scripts/mirror.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "diff": "node scripts/content-diff.mjs",
+    "linkcheck": "node scripts/link-check.mjs",
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.9.0",
