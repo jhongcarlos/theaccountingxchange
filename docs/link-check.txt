@@ -1,58 +1,28 @@
-Link check (2026-11-03T11:34:44.999Z) against http://localhost:4174
+Link check (2026-11-03T11:38:16.603Z) against http://localhost:4174
 
-## /services/
+## /pricing/
   ✓ link header: "Home" → https://theaccountingxchange.com/
   ✓ link header: "Services" → https://theaccountingxchange.com/services/
   ✓ link header: "About Us" → https://theaccountingxchange.com/about-us/
   ✓ link footer: "Arrange A Free Consultation" → https://theaccountingxchange.com/contact-us/
   ✓ link header: "Phone-alt" → https://go.theaccountingxchange.com/book-ax-call-now609488
   ✓ link header: "Envelope" → http://info@theaccountingxchange.com
-  ✓ link content: "Contact Us" → #contact
   ✓ link footer: "Facebook" → https://www.facebook.com/profile.php?id=61556458799517
   ✓ link footer: "Twitter" → https://twitter.com/accountingxcnge
   ✓ link footer: "Youtube" → https://www.youtube.com/@TheAccountingXchange
   ✓ image 2024/02/Untitled-600-x-150-px-1-2.png (alt="")
-  ✓ image 2026/01/Untitled-design-8-1.png (alt="")
-  ✓ image 2026/01/piggy-bank.png (alt="")
-  ✓ image 2026/01/24-7.png (alt="")
-  ✓ image 2026/01/productivity.png (alt="")
-  ✓ image 2026/01/payable.png (alt="")
-  ✓ image 2026/01/budgeting.png (alt="")
-  ✓ image 2026/01/clean-up.png (alt="")
-  ✓ image 2026/01/payment.png (alt="")
-  ✓ image 2026/01/approve.png (alt="")
-  ✓ image 2026/01/financial.png (alt="")
-  ✓ image 2026/01/escrow.png (alt="")
-  ✓ image 2026/03/images.png (alt="Image gallery marquee")
-  ✓ image 2026/03/DrakeSoftware.png (alt="Image gallery marquee")
-  ✓ image 2026/03/SAGE2050.png (alt="Image gallery marquee")
-  ✓ image 2026/03/ultratax-software.webp (alt="Image gallery marquee")
-  ✓ image 2026/03/atxlogoblisscmyk5f3woe9ztwri_11417956.webp (alt="Image gallery marquee")
-  ✓ image 2026/03/CCH-Logo.png (alt="Image gallery marquee")
-  ✓ image 2026/03/multitasking.png (alt="")
-  ✓ image 2026/03/team.png (alt="")
-  ✓ image 2026/03/shield.png (alt="")
-  ✓ image 2026/03/goal.png (alt="")
-  ✓ image 2026/03/refresh.png (alt="")
-  ✓ image 2026/03/paper.png (alt="")
-  ✓ image 2026/03/engineering.png (alt="")
-  ✓ image 2026/03/business-model.png (alt="")
-  ✓ image 2026/03/computer.png (alt="")
-  ✓ image 2026/03/graph.png (alt="")
-  ✓ image 2026/03/badge.png (alt="")
-  ✓ image 2026/03/growth.png (alt="")
-  ✓ form "New Form": 7 fields match (endpoint: https://theaccountingxchange.com/wp-admin/admin-ajax.php)
-  ✓ all 37 local requests returned < 400
+  ✓ image 2026/02/john-macdonald-I6v9QWWH93g-unsplash.jpg (alt="")
+  ✓ all 8 local requests returned < 400
 
 ## Redirects
   · /about-us-old/ → /about-us/ (target not rebuilt yet; skipped)
   · /home-old/ → / (target not rebuilt yet; skipped)
-  ✓ /services-old/ → /services/
-  ✓ /services-draft/ → /services/
+  · /services-old/ → /services/ (target not rebuilt yet; skipped)
+  · /services-draft/ → /services/ (target not rebuilt yet; skipped)
   · /3-reasons-why/ → /about-us/ (target not rebuilt yet; skipped)
-  ✓ /payroll/ → /services/
-  ✓ /tax-preparation/ → /services/
-  · /virtual-assistance/ → /pricing/ (target not rebuilt yet; skipped)
+  · /payroll/ → /services/ (target not rebuilt yet; skipped)
+  · /tax-preparation/ → /services/ (target not rebuilt yet; skipped)
+  ✓ /virtual-assistance/ → /pricing/
   · /shop/ → / (target not rebuilt yet; skipped)
   · /cart/ → / (target not rebuilt yet; skipped)
   · /checkout/ → / (target not rebuilt yet; skipped)

@@ -78,6 +78,9 @@ for (const route of routes) {
       await new Promise((r) => setTimeout(r, 60));
     }
   });
+  // expand collapsed content (FAQ accordions) so every answer is compared
+  const collapsed = np.locator('button[aria-expanded="false"]:not([aria-controls="mobile-menu"])');
+  for (let n = await collapsed.count(); n > 0; n = await collapsed.count()) await collapsed.first().click();
   await np.waitForTimeout(800);
   const after = await np.evaluate(segmentsIn, ['#root']);
   await np.close();
