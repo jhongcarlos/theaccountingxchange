@@ -1,45 +1,59 @@
-Link check (2026-11-03T11:19:39.207Z) against http://localhost:4173
+Link check (2026-11-03T11:32:01.533Z) against http://localhost:4173
 
-## /
+## /about-us/
   ✓ link header: "Home" → https://theaccountingxchange.com/
   ✓ link header: "Services" → https://theaccountingxchange.com/services/
   ✓ link header: "About Us" → https://theaccountingxchange.com/about-us/
   ✓ link footer: "Arrange A Free Consultation" → https://theaccountingxchange.com/contact-us/
   ✓ link header: "Phone-alt" → https://go.theaccountingxchange.com/book-ax-call-now609488
   ✓ link header: "Envelope" → http://info@theaccountingxchange.com
+  ✓ link content: "BOOK A FREE CONSULTATION" → #contact
   ✓ link footer: "Facebook" → https://www.facebook.com/profile.php?id=61556458799517
   ✓ link footer: "Twitter" → https://twitter.com/accountingxcnge
   ✓ link footer: "Youtube" → https://www.youtube.com/@TheAccountingXchange
   ✓ image 2024/02/Untitled-600-x-150-px-1-2.png (alt="")
-  ✓ image 2026/01/Untitled-design-8-1.png (alt="")
+  ✓ image 2026/03/premium_photo-1661456318819-f5260d12ad6f.jpg (alt="")
   ✓ image 2026/01/piggy-bank.png (alt="")
   ✓ image 2026/01/24-7.png (alt="")
   ✓ image 2026/01/productivity.png (alt="")
-  ✓ image 2026/01/loss.png (alt="")
-  ✓ image 2026/01/growth.png (alt="")
-  ✓ image 2026/01/cogs.png (alt="")
-  ✓ video https://youtu.be/2GcE14W3Xo0
+  ✓ image 2026/03/salary.png (alt="")
+  ✓ image 2026/03/analytics.png (alt="")
+  ✓ image 2026/03/onboarding.png (alt="")
+  ✓ image 2026/03/growth.png (alt="")
+  ✓ image 2026/03/compliant.png (alt="")
+  ✓ image 2026/03/software.png (alt="")
+  ✓ image 2026/03/RZ_Profile_Pic_-_NEW.png (alt="")
+  ✓ image 2026/03/Joyce_Profile_Pic.jpeg (alt="")
+  ✓ image 2026/03/REZ_Profile_Pic.png (alt="")
+  ✓ image 2026/03/Shobhit.png (alt="")
+  ✓ image 2026/03/Gaurav-sharma-1.png (alt="")
+  ✓ image 2026/03/images.png (alt="Image gallery marquee")
+  ✓ image 2026/03/DrakeSoftware.png (alt="Image gallery marquee")
+  ✓ image 2026/03/SAGE2050.png (alt="Image gallery marquee")
+  ✓ image 2026/03/ultratax-software.webp (alt="Image gallery marquee")
+  ✓ image 2026/03/atxlogoblisscmyk5f3woe9ztwri_11417956.webp (alt="Image gallery marquee")
+  ✓ image 2026/03/CCH-Logo.png (alt="Image gallery marquee")
   ✓ form "New Form": 7 fields match (endpoint: https://theaccountingxchange.com/wp-admin/admin-ajax.php)
-  ✓ all 12 local requests returned < 400
+  ✓ all 27 local requests returned < 400
 
 ## Redirects
-  · /about-us-old/ → /about-us/ (target not rebuilt yet; skipped)
-  ✓ /home-old/ → /
+  ✓ /about-us-old/ → /about-us/
+  · /home-old/ → / (target not rebuilt yet; skipped)
   · /services-old/ → /services/ (target not rebuilt yet; skipped)
   · /services-draft/ → /services/ (target not rebuilt yet; skipped)
-  · /3-reasons-why/ → /about-us/ (target not rebuilt yet; skipped)
+  ✓ /3-reasons-why/ → /about-us/
   · /payroll/ → /services/ (target not rebuilt yet; skipped)
   · /tax-preparation/ → /services/ (target not rebuilt yet; skipped)
   · /virtual-assistance/ → /pricing/ (target not rebuilt yet; skipped)
-  ✓ /shop/ → /
-  ✓ /cart/ → /
-  ✓ /checkout/ → /
-  ✓ /my-account/ → /
-  ✓ /my-account/lost-password/ → /
-  ✓ /hello-world/ → /
-  ✓ /category/blog/ → /
-  ✓ /author/raj/ → /
-  ✓ /author/theaccountingxchange-com/ → /
+  · /shop/ → / (target not rebuilt yet; skipped)
+  · /cart/ → / (target not rebuilt yet; skipped)
+  · /checkout/ → / (target not rebuilt yet; skipped)
+  · /my-account/ → / (target not rebuilt yet; skipped)
+  · /my-account/lost-password/ → / (target not rebuilt yet; skipped)
+  · /hello-world/ → / (target not rebuilt yet; skipped)
+  · /category/blog/ → / (target not rebuilt yet; skipped)
+  · /author/raj/ → / (target not rebuilt yet; skipped)
+  · /author/theaccountingxchange-com/ → / (target not rebuilt yet; skipped)
 
 ## External links (live status, informational)
   · https://theaccountingxchange.com/wp-admin/admin-ajax.php — form endpoint

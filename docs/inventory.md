@@ -371,6 +371,7 @@ _Header and footer links: see the shared header & footer section above._
 
 ### Forms & embeds
 
+- script: `https://link.msgsndr.com/js/form_embed.js`
 - iframe: `https://maps.google.com/maps?q=801%20International%20Pkwy%205th%20Floor%2C%20Lake%20Mary%2C%20FL%2032746&t=m&z=10&output=embed&iwloc=near`
 - iframe: `https://api.leadconnectorhq.com/widget/booking/kEYol5LayUnQ27iPPKXK`
 
