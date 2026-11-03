@@ -1,0 +1,759 @@
+{
+  "kitVars": {
+    "e-global-color-primary": "#6EC1E4",
+    "e-global-color-secondary": "#54595F",
+    "e-global-color-text": "#7A7A7A",
+    "e-global-color-accent": "#61CE70",
+    "e-global-typography-primary-font-family": "\"Roboto\"",
+    "e-global-typography-primary-font-weight": "600",
+    "e-global-typography-secondary-font-family": "\"Roboto Slab\"",
+    "e-global-typography-secondary-font-weight": "400",
+    "e-global-typography-text-font-family": "\"Roboto\"",
+    "e-global-typography-text-font-weight": "400",
+    "e-global-typography-accent-font-family": "\"Roboto\"",
+    "e-global-typography-accent-font-weight": "500"
+  },
+  "gpRoot": ":root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}",
+  "gFonts": [
+    "https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+    "https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+    "https://fonts.googleapis.com/css?family=Merriweather:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+    "https://fonts.googleapis.com/css?family=Sora:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap"
+  ],
+  "colorsLive": {
+    "#FFFFFF": {
+      "count": 95,
+      "props": {
+        "border-color": 4,
+        "--border-color": 1,
+        "background-color": 22,
+        "color": 48,
+        "fill": 8,
+        "--e-form-steps-indicator-inactive-secondary-color": 3,
+        "--e-form-steps-indicator-active-secondary-color": 3,
+        "--e-form-steps-indicator-completed-secondary-color": 3,
+        "background-image": 2,
+        "text-shadow": 1
+      },
+      "widgets": {
+        "container/section": 39,
+        "nav-menu": 6,
+        "social-icon": 1,
+        "heading-title": 13,
+        "image-box-title": 18,
+        "field": 6,
+        "button": 12
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112"
+      ]
+    },
+    "#002140": {
+      "count": 68,
+      "props": {
+        "background-color": 10,
+        "color": 46,
+        "fill": 4,
+        "border-color": 6,
+        "background-image": 2
+      },
+      "widgets": {
+        "container/section": 9,
+        "nav-menu": 2,
+        "button": 6,
+        "heading-title": 12,
+        "image-box-title": 24,
+        "field": 9,
+        "icon": 4,
+        "icon-list-text": 2
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112"
+      ]
+    },
+    "#00AFEF": {
+      "count": 16,
+      "props": {
+        "color": 4,
+        "fill": 4,
+        "border-color": 1,
+        "background-color": 5,
+        "box-shadow": 2
+      },
+      "widgets": {
+        "social-icon": 2,
+        "container/section": 7,
+        "button": 1,
+        "icon": 6
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#000000": {
+      "count": 97,
+      "props": {
+        "border-color": 1,
+        "color": 96
+      },
+      "widgets": {
+        "button": 1,
+        "heading-title": 51,
+        "image-box-description": 19,
+        "field": 9,
+        "image-box-title": 14,
+        "icon-list-text": 3
+      },
+      "posts": [
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112"
+      ]
+    },
+    "#EEEEEE": {
+      "count": 5,
+      "props": {
+        "background-color": 5
+      },
+      "widgets": {
+        "container/section": 5
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#1F2124": {
+      "count": 3,
+      "props": {
+        "border-color": 3
+      },
+      "widgets": {
+        "container/section": 3
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#30B0ED": {
+      "count": 9,
+      "props": {
+        "background-color": 6,
+        "color": 3
+      },
+      "widgets": {
+        "container/section": 6,
+        "button": 3
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#D6D6D6": {
+      "count": 28,
+      "props": {
+        "border-color": 14,
+        "--border-color": 14
+      },
+      "widgets": {
+        "container/section": 28
+      },
+      "posts": [
+        "1150",
+        "1112"
+      ]
+    },
+    "rgba(0,0,0,0.5)": {
+      "count": 14,
+      "props": {
+        "box-shadow": 14
+      },
+      "widgets": {
+        "container/section": 14
+      },
+      "posts": [
+        "1150",
+        "1112"
+      ]
+    },
+    "#BDBDBD": {
+      "count": 5,
+      "props": {
+        "--divider-color": 5
+      },
+      "widgets": {
+        "container/section": 5
+      },
+      "posts": [
+        "1150"
+      ]
+    },
+    "rgba(0,0,0,0.3)": {
+      "count": 4,
+      "props": {
+        "text-shadow": 4
+      },
+      "widgets": {
+        "heading-title": 4
+      },
+      "posts": [
+        "1150",
+        "1112"
+      ]
+    }
+  },
+  "colorsAll": {
+    "#FFFFFF": {
+      "count": 148,
+      "props": {
+        "border-color": 8,
+        "--border-color": 1,
+        "background-color": 45,
+        "color": 70,
+        "fill": 8,
+        "--e-form-steps-indicator-inactive-secondary-color": 3,
+        "--e-form-steps-indicator-active-secondary-color": 3,
+        "--e-form-steps-indicator-completed-secondary-color": 3,
+        "background-image": 5,
+        "text-shadow": 1,
+        "--n-accordion-title-active-color": 1
+      },
+      "widgets": {
+        "container/section": 70,
+        "nav-menu": 6,
+        "social-icon": 1,
+        "heading-title": 34,
+        "image-box-title": 18,
+        "field": 6,
+        "button": 12,
+        "icon-list-text": 1
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112",
+        "364",
+        "1049",
+        "18",
+        "1102",
+        "53"
+      ]
+    },
+    "#002140": {
+      "count": 125,
+      "props": {
+        "background-color": 23,
+        "color": 82,
+        "fill": 7,
+        "border-color": 7,
+        "background-image": 5,
+        "text-shadow": 1
+      },
+      "widgets": {
+        "container/section": 20,
+        "nav-menu": 2,
+        "button": 12,
+        "heading-title": 40,
+        "image-box-title": 24,
+        "field": 9,
+        "icon": 10,
+        "icon-list-text": 2,
+        "icon-box-title": 6
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112",
+        "364",
+        "1049",
+        "18",
+        "1102",
+        "53"
+      ]
+    },
+    "#00AFEF": {
+      "count": 47,
+      "props": {
+        "color": 11,
+        "fill": 8,
+        "border-color": 9,
+        "background-color": 14,
+        "box-shadow": 4,
+        "background-image": 1
+      },
+      "widgets": {
+        "social-icon": 2,
+        "container/section": 19,
+        "button": 3,
+        "icon": 20,
+        "heading-title": 3
+      },
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "1112",
+        "1049",
+        "18",
+        "1102",
+        "53"
+      ]
+    },
+    "#000000": {
+      "count": 148,
+      "props": {
+        "border-color": 8,
+        "color": 135,
+        "text-shadow": 1,
+        "background-color": 4
+      },
+      "widgets": {
+        "button": 1,
+        "heading-title": 67,
+        "image-box-description": 26,
+        "field": 9,
+        "image-box-title": 28,
+        "icon-list-text": 6,
+        "container/section": 11
+      },
+      "posts": [
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112",
+        "364",
+        "1049",
+        "18",
+        "1102",
+        "53"
+      ]
+    },
+    "#EEEEEE": {
+      "count": 6,
+      "props": {
+        "background-color": 6
+      },
+      "widgets": {
+        "container/section": 6
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112",
+        "1102"
+      ]
+    },
+    "#1F2124": {
+      "count": 3,
+      "props": {
+        "border-color": 3
+      },
+      "widgets": {
+        "container/section": 3
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#30B0ED": {
+      "count": 9,
+      "props": {
+        "background-color": 6,
+        "color": 3
+      },
+      "widgets": {
+        "container/section": 6,
+        "button": 3
+      },
+      "posts": [
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "#D6D6D6": {
+      "count": 28,
+      "props": {
+        "border-color": 14,
+        "--border-color": 14
+      },
+      "widgets": {
+        "container/section": 28
+      },
+      "posts": [
+        "1150",
+        "1112"
+      ]
+    },
+    "rgba(0,0,0,0.5)": {
+      "count": 15,
+      "props": {
+        "box-shadow": 15
+      },
+      "widgets": {
+        "container/section": 15
+      },
+      "posts": [
+        "1150",
+        "1112",
+        "18"
+      ]
+    },
+    "#BDBDBD": {
+      "count": 5,
+      "props": {
+        "--divider-color": 5
+      },
+      "widgets": {
+        "container/section": 5
+      },
+      "posts": [
+        "1150"
+      ]
+    },
+    "rgba(0,0,0,0.3)": {
+      "count": 24,
+      "props": {
+        "text-shadow": 24
+      },
+      "widgets": {
+        "heading-title": 24
+      },
+      "posts": [
+        "1150",
+        "1112",
+        "364",
+        "18",
+        "53"
+      ]
+    },
+    "#7C7C7C": {
+      "count": 3,
+      "props": {
+        "color": 3
+      },
+      "widgets": {
+        "heading-title": 3
+      },
+      "posts": [
+        "364"
+      ]
+    },
+    "#E0E7FF": {
+      "count": 6,
+      "props": {
+        "background-image": 2,
+        "background-color": 4
+      },
+      "widgets": {
+        "container/section": 6
+      },
+      "posts": [
+        "1049"
+      ]
+    },
+    "#344054": {
+      "count": 4,
+      "props": {
+        "color": 4
+      },
+      "widgets": {
+        "heading-title": 4
+      },
+      "posts": [
+        "1049"
+      ]
+    },
+    "#EAECF0": {
+      "count": 16,
+      "props": {
+        "border-color": 8,
+        "--border-color": 8
+      },
+      "widgets": {
+        "container/section": 16
+      },
+      "posts": [
+        "1049"
+      ]
+    },
+    "#00386D": {
+      "count": 9,
+      "props": {
+        "fill": 3,
+        "color": 3,
+        "background-color": 3
+      },
+      "widgets": {
+        "icon": 9
+      },
+      "posts": [
+        "1049"
+      ]
+    },
+    "#555454": {
+      "count": 1,
+      "props": {
+        "color": 1
+      },
+      "widgets": {
+        "heading-title": 1
+      },
+      "posts": [
+        "18"
+      ]
+    },
+    "#F2F2F2": {
+      "count": 3,
+      "props": {
+        "background-image": 1,
+        "background-color": 2
+      },
+      "widgets": {
+        "container/section": 3
+      },
+      "posts": [
+        "18",
+        "53"
+      ]
+    },
+    "#646464": {
+      "count": 1,
+      "props": {
+        "color": 1
+      },
+      "widgets": {
+        "heading-title": 1
+      },
+      "posts": [
+        "18"
+      ]
+    },
+    "#535353": {
+      "count": 1,
+      "props": {
+        "color": 1
+      },
+      "widgets": {
+        "heading-title": 1
+      },
+      "posts": [
+        "53"
+      ]
+    },
+    "#302E2E": {
+      "count": 9,
+      "props": {
+        "color": 9
+      },
+      "widgets": {
+        "heading-title": 9
+      },
+      "posts": [
+        "53"
+      ]
+    }
+  },
+  "fontsLive": {
+    "var( --e-global-typography-text-font-family )": {
+      "count": 23,
+      "weights": {
+        "var( --e-global-typography-text-font-weight )": 23
+      },
+      "widgets": {
+        "other": 9,
+        "image-box-description": 3,
+        "field-group": 6,
+        "field": 3,
+        "icon-list-text": 2
+      },
+      "sizes": [],
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112"
+      ]
+    },
+    "var( --e-global-typography-primary-font-family )": {
+      "count": 9,
+      "weights": {
+        "var( --e-global-typography-primary-font-weight )": 9
+      },
+      "widgets": {
+        "nav-menu": 1,
+        "heading-title": 5,
+        "image-box-title": 3
+      },
+      "sizes": [],
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "63",
+        "1112"
+      ]
+    },
+    "var( --e-global-typography-accent-font-family )": {
+      "count": 14,
+      "weights": {
+        "var( --e-global-typography-accent-font-weight )": 14
+      },
+      "widgets": {
+        "nav-menu": 1,
+        "button": 7,
+        "other": 6
+      },
+      "sizes": [],
+      "posts": [
+        "41",
+        "83",
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "Merriweather": {
+      "count": 145,
+      "weights": {
+        "400": 72,
+        "500": 8,
+        "600": 37,
+        "700": 26,
+        "800": 2
+      },
+      "widgets": {
+        "nav-menu": 1,
+        "heading-title": 70,
+        "image-box-title": 28,
+        "image-box-description": 28,
+        "button": 9,
+        "field-group": 6,
+        "icon-list-text": 3
+      },
+      "sizes": [
+        "18px",
+        "50px",
+        "20px",
+        "40px",
+        "22px",
+        "32px",
+        "16px",
+        "47px",
+        "25px",
+        "14px"
+      ],
+      "posts": [
+        "41",
+        "977",
+        "1150",
+        "1112"
+      ]
+    },
+    "Sora": {
+      "count": 9,
+      "weights": {
+        "300": 1,
+        "400": 2,
+        "500": 1,
+        "600": 1,
+        "700": 2,
+        "800": 2
+      },
+      "widgets": {
+        "nav-menu": 1,
+        "heading-title": 5,
+        "button": 1,
+        "icon-list-text": 2
+      },
+      "sizes": [
+        "18px",
+        "35px",
+        "16px",
+        "80px",
+        "34px",
+        "20px",
+        "22px"
+      ],
+      "posts": [
+        "41",
+        "83",
+        "63"
+      ]
+    },
+    "var( --e-global-typography-secondary-font-family )": {
+      "count": 2,
+      "weights": {
+        "var( --e-global-typography-secondary-font-weight )": 2
+      },
+      "widgets": {
+        "other": 2
+      },
+      "sizes": [],
+      "posts": [
+        "1150",
+        "1112"
+      ]
+    }
+  },
+  "logos": [
+    {
+      "block": "header (elementor-41)",
+      "src": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png",
+      "srcset": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png 300w, https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2.png 600w",
+      "alt": "",
+      "width": "300",
+      "height": "75"
+    },
+    {
+      "block": "footer (elementor-83)",
+      "src": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png",
+      "srcset": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png 300w, https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2.png 600w",
+      "alt": "",
+      "width": "300",
+      "height": "75"
+    },
+    {
+      "block": "footer (elementor-83)",
+      "src": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png",
+      "srcset": "https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2-300x75.png 300w, https://theaccountingxchange.com/wp-content/uploads/2024/02/Untitled-600-x-150-px-1-2.png 600w",
+      "alt": "",
+      "width": "300",
+      "height": "75"
+    }
+  ]
+}

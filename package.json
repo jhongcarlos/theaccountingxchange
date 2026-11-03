@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "extract": "node scripts/extract.mjs",
+    "mirror": "node scripts/mirror.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.9.0",
