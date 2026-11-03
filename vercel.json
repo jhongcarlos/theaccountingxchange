@@ -1,0 +1,106 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/about-us-old/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/home-old/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services-old/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/services-draft/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/3-reasons-why/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/payroll/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/tax-preparation/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-assistance/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cart/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account/lost-password/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hello-world/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/raj/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/theaccountingxchange-com/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!assets/|.*\\.[a-z0-9]+$).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

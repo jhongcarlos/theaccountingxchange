@@ -13,7 +13,8 @@
     "screenshots": "node scripts/screenshots.mjs",
     "diff": "node scripts/content-diff.mjs",
     "linkcheck": "node scripts/link-check.mjs",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "prebuild": "node scripts/deploy-files.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.9.0",
